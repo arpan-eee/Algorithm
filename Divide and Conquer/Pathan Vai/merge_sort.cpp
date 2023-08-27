@@ -80,9 +80,9 @@ int main()
         cin>>a[i];
     }
     merge_sort(a,0,n-1);
-    // for(int i=0;i<n;i++)
-    // {
-    //     cout<<a[i]<<" ";
-    // }
+    for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
     return 0;
 }
